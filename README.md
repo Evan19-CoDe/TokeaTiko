@@ -56,75 +56,77 @@ A full-stack event ticket marketplace built with the MERN stack (MongoDB, Expres
 ### Installation
 
 1. **Clone the repository**
-   ```bash
+   ```
+   bash
    git clone https://github.com/Evan19-CoDe/TokeaTiko.git
    cd TokeaTiko
 
 2. **Install Dependencies**
-   Install dependencies
-
-   ```bash
-# Install server dependencies
-  ```cd server
+   ```
+   bash
+   pnpm install
+3. **Install server dependencies**
+  cd ../server
   pnpm install
 
-# Install client dependencies
+4. **Install client dependencies**
   cd ../client
   pnpm install
 
 
-Features Implemented
-User System
-Registration with email/password
+## Features Implemented
 
-JWT-based authentication
+1. **User System**
+- Registration with email/password
 
-Protected routes for authenticated users
+- JWT-based authentication
 
-Profile management
+- Protected routes for authenticated users
 
-Event Management
-Create, read, update, delete events
+- Profile management
 
-Event images and videos upload (using Cloudinary)
+2. **Event Management**
+- Create, read, update, delete events
 
-Geolocation with address lookup
+- Event images and videos upload (using Cloudinary)
 
-Event categories and filtering
+- Geolocation with address lookup
 
-Shopping Experience
-Add/remove tickets to cart
+- Event categories and filtering
 
-Cart persistence (local storage)
+3. **Shopping Experience**
+- Add/remove tickets to cart
 
-Checkout process
+- Cart persistence (local storage)
 
-Order history
+- Checkout process
 
-Payments
+- Order history
 
-M-Pesa integration for mobile payments
+4. **Payments**
 
-Payment confirmation emails (would require email service)
+- M-Pesa integration for mobile payments
 
-Reviews & Ratings
-Leave reviews for attended events
+- Payment confirmation emails (would require email service)
 
-Star rating system
+5. **Reviews & Ratings**
+- Leave reviews for attended events
 
-Review moderation
+- Star rating system
 
-Admin Features
-Event management
+- Review moderation
 
-User management
+6. **Admin Features**
+- Event management
 
-Sales reporting
+- User management
+
+-Sales reporting
 
 
-PROJECT STRIUCTURE
+## PROJECT STRIUCTURE
 
-event-ticket-store/
+TokeaTiko/
 ├── client/                  # Frontend React application
 │   ├── public/              # Static files
 │   ├── src/                 # React source files
