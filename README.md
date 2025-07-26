@@ -56,18 +56,22 @@ A full-stack event ticket marketplace built with the MERN stack (MongoDB, Expres
 ### Installation
 
 1. **Clone the repository**
-   ``bash
+   ```
+   bash
    git clone https://github.com/Evan19-CoDe/TokeaTiko.git
    cd TokeaTiko
 2. **Install Dependencies**
-   ``bash
+   ```
+   bash
    pnpm install
 3. **Install server dependencies**
-   ``bash
+   ```
+   bash
    cd ../server
    pnpm install
 4. **Install client dependencies**
-   ``bash
+   ```
+   bash
    cd ../client
    pnpm install
 ### Features Implemented
